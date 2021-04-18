@@ -1,0 +1,60 @@
+{
+  "name": "LKHomeModule",
+  "version": "1",
+  "summary": "A short description of LKHomeModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kaige1123/LKHomeModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kaige1123": "948158677@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/kaige1123/LKHomeModule.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LKHomeModule/Classes/**/*",
+  "resource_bundles": {
+    "LKHomeModule": [
+      "LKHomeModule/Classes/*.json"
+    ]
+  },
+  "dependencies": {
+    "JSONModel": [
+
+    ],
+    "TYCyclePagerView": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "LKMacroCategoryModule": [
+
+    ],
+    "LKCommonUIModule": [
+
+    ],
+    "LKPlayerModuleCategory": [
+
+    ],
+    "CTMediator": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"LGMacros.h\"",
+    "#import \"Masonry.h\"",
+    "#import \"AFNetworking.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"CTMediator+LGPlayerModuleAction.h\""
+  ]
+}

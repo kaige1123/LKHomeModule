@@ -1,0 +1,27 @@
+{
+  "name": "LKPlayerModuleCategory",
+  "version": "1",
+  "summary": "A short description of LKPlayerModuleCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kaige1123/LKPlayerModuleCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kaige1123": "948158677@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/kaige1123/LKPlayerModuleCategory.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LKPlayerModuleCategory/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

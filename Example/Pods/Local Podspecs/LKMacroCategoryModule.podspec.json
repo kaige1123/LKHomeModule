@@ -1,0 +1,22 @@
+{
+  "name": "LKMacroCategoryModule",
+  "version": "1",
+  "summary": "A short description of LKMacroCategoryModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kaige1123/LKMacroCategoryModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kaige1123": "948158677@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/kaige1123/LKMacroCategoryModule.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LKMacroCategoryModule/Classes/**/*"
+}

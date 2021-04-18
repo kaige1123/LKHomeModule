@@ -1,0 +1,6 @@
+framework module LKMacroCategoryModule {
+  umbrella header "LKMacroCategoryModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

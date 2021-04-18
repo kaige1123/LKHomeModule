@@ -1,0 +1,6 @@
+framework module LKHomeModule {
+  umbrella header "LKHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

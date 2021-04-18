@@ -1,0 +1,65 @@
+{
+  "name": "LKCommonUIModule",
+  "version": "1",
+  "summary": "A short description of LKCommonUIModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kaige1123/LKCommonUIModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kaige1123": "948158677@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/kaige1123/LKCommonUIModule.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LKCommonUIModule/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "LKMacroCategoryModule": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"Masonry.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"LGMacros.h\""
+  ],
+  "subspecs": [
+    {
+      "name": "LGErrorView",
+      "source_files": "LKCommonUIModule/Classes/LGErrorView/*"
+    },
+    {
+      "name": "LGToast",
+      "source_files": "LKCommonUIModule/Classes/LGToast/*"
+    },
+    {
+      "name": "LGLoading",
+      "source_files": "LKCommonUIModule/Classes/LGLoading/*"
+    },
+    {
+      "name": "LGSegmentedControl",
+      "source_files": "LKCommonUIModule/Classes/LGSegmentedControl/*"
+    },
+    {
+      "name": "LGShare",
+      "dependencies": {
+        "LKCommonUIModule/LGToast": [
+
+        ]
+      },
+      "source_files": "LKCommonUIModule/Classes/LGShare/*"
+    }
+  ]
+}
