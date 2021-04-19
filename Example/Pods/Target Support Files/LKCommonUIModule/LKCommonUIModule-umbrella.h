@@ -16,11 +16,6 @@
 #import "LGSegmentedControl.h"
 #import "LGShare.h"
 #import "LGToast.h"
-#import "LGErrorView.h"
-#import "LGLoading.h"
-#import "LGSegmentedControl.h"
-#import "LGShare.h"
-#import "LGToast.h"
 
 FOUNDATION_EXPORT double LKCommonUIModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char LKCommonUIModuleVersionString[];

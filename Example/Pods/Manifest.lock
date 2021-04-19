@@ -21,33 +21,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - JSONModel (1.8.0)
-  - LKCommonUIModule (1):
-    - AFNetworking
-    - LKCommonUIModule/LGErrorView (= 1)
-    - LKCommonUIModule/LGLoading (= 1)
-    - LKCommonUIModule/LGSegmentedControl (= 1)
-    - LKCommonUIModule/LGShare (= 1)
-    - LKCommonUIModule/LGToast (= 1)
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGErrorView (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGLoading (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGSegmentedControl (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGShare (1):
-    - AFNetworking
-    - LKCommonUIModule/LGToast
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGToast (1):
+  - LKCommonUIModule (2):
     - AFNetworking
     - LKMacroCategoryModule
     - Masonry
@@ -94,7 +68,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LKCommonUIModule:
-    :commit: add032cbf2c5acc63f89713c4f3f264c6874191a
+    :commit: 580de8954fb38ef32bfefd0e49c63a48e751fa0c
     :git: https://github.com/kaige1123/LKCommonUIModule.git
   LKMacroCategoryModule:
     :commit: a576fdaabc46ea39863a3c865ed1f0cdb445b6ea
@@ -108,7 +82,7 @@ SPEC CHECKSUMS:
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
-  LKCommonUIModule: 0bd2a6780c795b2cdcad122cc88b37c93d42d937
+  LKCommonUIModule: 99636051ac0fe91052c8dfad6fe72df7219b1926
   LKHomeModule: 31833d366c2df66ba776b8c293c54f19aecd9902
   LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
   LKPlayerModuleCategory: 11ee881bb7f271f7bfc0cc829d263bb5f590abd2
