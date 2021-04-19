@@ -68,13 +68,13 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - LKCommonUIModule (from `../../LKCommonUIModule`)
+  - LKCommonUIModule (from `https://github.com/kaige1123/LKCommonUIModule.git`)
   - LKHomeModule (from `../`)
-  - LKMacroCategoryModule (from `../../LKMacroCategoryModule`)
-  - LKPlayerModuleCategory (from `../../LKPlayerModuleCategory`)
+  - LKMacroCategoryModule (from `https://github.com/kaige1123/LKMacroCategoryModule.git`)
+  - LKPlayerModuleCategory (from `https://github.com/kaige1123/LKPlayerModuleCategory.git`)
 
 SPEC REPOS:
-  trunk:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AFNetworking
     - CTMediator
     - FBSnapshotTestCase
@@ -84,13 +84,24 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   LKCommonUIModule:
-    :path: "../../LKCommonUIModule"
+    :git: https://github.com/kaige1123/LKCommonUIModule.git
   LKHomeModule:
     :path: "../"
   LKMacroCategoryModule:
-    :path: "../../LKMacroCategoryModule"
+    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
   LKPlayerModuleCategory:
-    :path: "../../LKPlayerModuleCategory"
+    :git: https://github.com/kaige1123/LKPlayerModuleCategory.git
+
+CHECKOUT OPTIONS:
+  LKCommonUIModule:
+    :commit: add032cbf2c5acc63f89713c4f3f264c6874191a
+    :git: https://github.com/kaige1123/LKCommonUIModule.git
+  LKMacroCategoryModule:
+    :commit: a576fdaabc46ea39863a3c865ed1f0cdb445b6ea
+    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
+  LKPlayerModuleCategory:
+    :commit: 62bee7ddc1243c27e121ee12e3a526055b843ee7
+    :git: https://github.com/kaige1123/LKPlayerModuleCategory.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -104,6 +115,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
 
-PODFILE CHECKSUM: 3b68a0acf05f3d264d92125ac2f09382494a270e
+PODFILE CHECKSUM: 8ccfa47bb95c7593faab30e9d59650c526672e5a
 
 COCOAPODS: 1.10.1

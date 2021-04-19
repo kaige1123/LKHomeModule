@@ -1,15 +1,16 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'LKHomeModule_Example' do
   pod 'LKHomeModule', :path => '../'
-  pod 'LKMacroCategoryModule', :path => '../../LKMacroCategoryModule'
-  pod 'LKCommonUIModule', :path => '../../LKCommonUIModule'
-  pod 'LKPlayerModuleCategory', :path => '../../LKPlayerModuleCategory'
-#  pod 'LKMacroCategoryModule', :git => 'https://github.com/kaige1123/LKMacroCategoryModule.git'
-#  pod 'LKCommonUIModule', :git => 'https://github.com/kaige1123/LKCommonUIModule.git'
-#  pod 'LKPlayerModuleCategory', :git => 'https://github.com/kaige1123/LKPlayerModuleCategory.git'
+#  pod 'LKMacroCategoryModule', :path => '../../LKMacroCategoryModule'
+#  pod 'LKCommonUIModule', :path => '../../LKCommonUIModule'
+#  pod 'LKPlayerModuleCategory', :path => '../../LKPlayerModuleCategory'
+  pod 'LKMacroCategoryModule', :git => 'https://github.com/kaige1123/LKMacroCategoryModule.git'
+  pod 'LKCommonUIModule', :git => 'https://github.com/kaige1123/LKCommonUIModule.git'
+  pod 'LKPlayerModuleCategory', :git => 'https://github.com/kaige1123/LKPlayerModuleCategory.git'
 
   target 'LKHomeModule_Tests' do
     inherit! :search_paths
